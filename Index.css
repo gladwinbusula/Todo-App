@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100%;
+    background-color: blue;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 135px;
+    top: 100%;
+    text-align: justify;
+    height: 100px;
+    justify-content: right;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: relative;
+    min-width: 450px;
+    min-height: 600px;
+}
+#newtask{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 5px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+#newtask button{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 30%;
+    height: 45%;
+    border-radius: 5px;
+}
+#tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+    font-size: 15px;
+    
+}
+.control{
+    display: flex;
+    justify-content:space-between
+     
+}
+
+.controls.clear btn{
+    outline: none;
+    border: none;
+    padding: 13px;
+    color: azure;
+    border-radius: 3px;
+    font-size: 
+}
+    #all, #pending, #completed{
+    font-size: 33px;
+    padding: 6px;
+}
+
